@@ -27,7 +27,6 @@ print(round(df, 2))
 
 # Optional: Save to CSV for use in RSD package
 # write.csv(df, "crop_yields.csv", row.names = TRUE)
-s
 pr <- rep(1/num_env,num_env)
 outcome1 <- df$Crop1
 outcome2 <- df$Crop4
